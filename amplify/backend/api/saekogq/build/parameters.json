@@ -1,0 +1,8 @@
+{
+    "CreateAPIKey": 1,
+    "AppSyncApiName": "saekogq",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "S3DeploymentBucket": "amplify-saekogq-dev-94311-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/351e029d66e1e59361cedfb048bce0a3e4438acd"
+}
