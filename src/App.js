@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 
+import { withAuthenticator } from '@aws-amplify/ui-react';
 import Amplify, { API, graphqlOperation } from 'aws-amplify';
 import { createTodo } from './graphql/mutations';
 import { listTodos } from './graphql/queries';
 import awsExports from "./aws-exports";
 Amplify.configure(awsExports);
+
 
 const initialState = { name: '', description: '' }
 
@@ -78,4 +80,5 @@ const styles = {
   button: { backgroundColor: 'black', color: 'white', outline: 'none', fontSize: 18, padding: '12px 0px' }
 }
 
-export default App;
+//export default App;
+export default withAuthenticator(App);

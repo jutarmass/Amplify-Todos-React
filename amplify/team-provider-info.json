@@ -10,6 +10,11 @@
             "StackName": "amplify-saekogq-dev-94311",
             "StackId": "arn:aws:cloudformation:ap-southeast-1:329945647196:stack/amplify-saekogq-dev-94311/ea7bbc60-d920-11ea-8bd4-0a58c7c408be",
             "AmplifyAppId": "d2j3sktkxypzbt"
+        },
+        "categories": {
+            "auth": {
+                "saekogqdde86956": {}
+            }
         }
     }
 }
